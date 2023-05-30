@@ -1,0 +1,59 @@
+.train-details {
+    text-align: center;
+}
+
+body {
+  
+    margin: 0;
+    padding: 0;
+  }
+
+.login-content{
+  background-image: url('./images/bg.png'), url('./images/wave.png');
+  background-repeat: no-repeat;
+  background-size: 750px 400px, contain;
+  background-position: 10% 30%, left;
+  height: 100vh;
+  width: 100dvw;
+}
+.train-container{
+  background-image: url('./images/bg.png'), url('./images/wave.png');
+  background-repeat: no-repeat;
+  background-size: 750px 400px, contain;
+  background-position: 10% 30%, left;
+  height: 100vh;
+  width: 100dvw;
+}
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+  
+  .train-details .card:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* *{
+    margin: 0;
+    padding: 0;
+  } */

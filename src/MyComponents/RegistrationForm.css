@@ -1,0 +1,80 @@
+.registration-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-right: 10%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    float: right;
+    height: 100vh;
+    width: 30%;
+    overflow: auto;
+  }
+  
+  
+  .bg-2 {
+    /* background-image: url('./images/bg.png'), url('./images/wave.png'); */
+    background-repeat: no-repeat;
+    background-size: 300px 200px, contain;
+    background-position: 20% 40%, left;
+    height: 1vh;
+    
+  }
+  .bg-1 {
+    /* background-image: url('./images/bg.png'), url('./images/wave.png'); */
+    background-repeat: no-repeat;
+    background-size: 400px 300px, contain;
+    background-position: 20% 40%, left;
+    height: auto;
+    overflow: hidden;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #27ae60;
+  }
+  
+  /* set the min-height property of the parent element to 100vh */
+  .parent-element {
+    min-height:100vh;
+  }
+  
+  /* allow scrolling within the parent element */
+  *{
+    overflow: auto;
+  }
+  

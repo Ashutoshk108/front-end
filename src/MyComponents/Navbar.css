@@ -1,0 +1,38 @@
+#navbarSupportedContent{    
+    margin-left: 750px;
+  }
+  .nav-item{
+    margin-left: 10px;
+  }
+  
+  .navbar-brand{
+    margin-left: 20px;
+    color: rgb(131, 127, 127);
+    
+    
+    
+  }
+  #mynav{
+    
+    
+    font-weight: bold;
+    opacity: 1;
+    
+  }
+  #header h1{
+    
+    margin:0px;
+}
+#lastitem{
+  margin-right: 0;
+}
+#navbar{
+  background-color: rgb(56, 162, 162);
+  
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: sticky;
+  margin: auto;
+ 
+}

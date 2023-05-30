@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+ * {
+	 box-sizing: border-box;
+	 overflow: hidden;
+		overflow-y: hidden; /* Hide vertical scrollbar */
+		overflow-x: hidden; /* Hide horizontal scrollbar */
+	
+}
+#div2{
+    text-align: center;
+    color: black;
+    height: 100vh;
+  }
+ .page-contain {
+	 display: flex;
+	 min-height: 80vh;
+	 align-items: center;
+	 justify-content: center;
+	 /* background: #e7f3f1; */
+	 /* border: 0.75em solid white; */
+	 padding: 2em;
+	 font-family: 'Open Sans', sans-serif;
+}
+ .data-card {
+	 display: flex;
+	 flex-direction: column;
+	 max-width: 20.75em;
+	 max-height: 30.5em;
+	 overflow: hidden;
+	 
+	 border-radius: 0.5em;
+	 text-decoration: none;
+	 background: white;
+	 margin: 1em;
+	 padding: 2.75em 2.5em;
+	 box-shadow: 0 1.5em 2.5em -0.5em rgba(0, 0, 0, .1);
+	 transition: transform 0.45s ease, background 0.45s ease;
+}
+.data-card:hover b{
+	color: #fff;
+
+
+}
+.data-card b{
+	color: black;
+
+}
+ 
+ .data-card p {
+	 opacity: 0;
+	 color: #fff;
+	 font-weight: 600;
+	 line-height: 1.8;
+	 margin: 0 0 1.25em;
+	 transform: translateY(-1em);
+	 transition: opacity 0.45s ease, transform 0.5s ease;
+}
+ 
+ .data-card .link-text svg {
+	 margin-left: 0.5em;
+	 transition: transform 0.6s ease;
+}
+ .data-card .link-text svg path {
+	 transition: fill 0.45s ease;
+}
+ .data-card:hover {
+	 background: black;
+	 color: white;
+	 transform: scale(1.1);
+}
+ .data-card:hover h3 {
+	 color: #fff;
+	 border-bottom-color: #a754c4;
+}
+ .data-card:hover h4 {
+	 color: #fff;
+}
+ .data-card:hover p {
+	 opacity: 1;
+	 transform: none;
+}
+ .data-card:hover .link-text {
+	 color: #fff;
+}
+ .data-card:hover .link-text svg {
+	 animation: point 1.25s infinite alternate;
+}
+ .data-card:hover .link-text svg path {
+	 fill: #fff;
+}
+ @keyframes point {
+	 0% {
+		 transform: translateX(0);
+	}
+	 100% {
+		 transform: translateX(0.125em);
+	}
+}
+ 
+.title{
+	
+	margin-top: 4%;
+	font-family: Garamond, serif;
+	font-weight: bold;
+	
+    
+	font-size: 50px;
+	width: 40%;
+	margin-left: 390px;
+}
+
+	
+
+.img-01{
+	margin-bottom: 20px;
+}
+

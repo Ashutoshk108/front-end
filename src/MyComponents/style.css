@@ -1,0 +1,76 @@
+.form-container {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-right: 10%;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+	float: right;
+	height: 90vh;
+	width: 35%;
+}
+  
+  
+.login-content {
+	background-image: url('./images/bg.png'), url('./images/wave.png');
+	background-repeat: no-repeat;
+	background-size: 500px 400px, contain;
+	background-position: 20% 40%, left;
+	height: 90vh;
+	
+}
+  
+.form-box{
+	margin-top: 10%;
+	margin-right: -50%;
+	width: 100vw;
+}
+  
+.form-group {
+	margin-bottom: 15px;
+}
+  
+label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+  
+input, select {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	font-size: 16px;
+}
+  
+btn-submit {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #2ecc71;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 28px;
+	cursor: pointer;
+}
+  
+  
+.btn-submit:hover {
+	background-color: #27ae60;
+}
+  
+/* set the min-height property of the parent element to 100vh */
+.parent-element {
+	min-height: 100vh;
+}
+  
+/* allow scrolling within the parent element */
+*{
+	overflow: auto;
+}
+
